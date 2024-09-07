@@ -1,5 +1,5 @@
 {
-  "homepage": "https://Fekadelika.github.io/Netflix-Clone-2024/",
+  "homepage": "https://Fekadelika.github.io/Netflix-Clone-2024",
   "name": "netflix-clone",
   "private": true,
   "version": "0.0.0",
@@ -7,6 +7,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "predeploy": "vite build",
     "deploy": "gh-pages -d dist",
     "lint": "eslint .",
     "preview": "vite preview"
